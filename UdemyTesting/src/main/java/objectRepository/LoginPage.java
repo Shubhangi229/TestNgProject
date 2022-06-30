@@ -14,8 +14,8 @@ public class LoginPage {
 	private By usernamesList = By.xpath("//div[@id='login_credentials']");
 	private By userPassword = By.className("login_password");
 	
-	public LoginPage(WebDriver driver) {
-		this.driver = driver;
+	public LoginPage(WebDriver driver1) {
+		this.driver = driver1;
 	}
 	
 	public WebElement getUserName() {
